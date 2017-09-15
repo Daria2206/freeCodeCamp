@@ -40,7 +40,6 @@ function displayNewQuote(quoteNum, quotes) {
     }
 }
 
-//Func to generate a random number and calls displayNewQuote. 
 var generator = function (event) {
     "use strict";
     var min = 0;
@@ -49,7 +48,6 @@ var generator = function (event) {
     displayNewQuote(quoteNum, best);
 };
 
-//Event handlers
 if (document.addEventListener)
     document.addEventListener("DOMContentLoaded", generator);
 else if (document.attachEvent)

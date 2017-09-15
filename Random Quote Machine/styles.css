@@ -1,0 +1,99 @@
+/*
+========================================
+Custom styles
+========================================
+*/
+
+/*
+------------------------------------------
+Basic styles
+------------------------------------------
+*/
+
+body {
+  background-color: #FFFFFF;
+  font-family: 'Rufina', 'Palatino', 'Garamond', serif;
+}
+
+.page-header {
+  color: #000000;
+  font-family:'Special Elite', 'Courier', 'Impact', cursive;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 10% 5% 0;
+}
+
+#quoteContainer {
+  background-color: #FFFFFF;
+  border: solid #CDCDC0; 
+  font-size: 20px;
+  margin: 5%;
+  min-height: 300px;   
+  padding: 5%; 
+  position: relative;
+}
+
+#quoteText {
+  margin: 5%;
+}
+
+#authorContainer {
+  font-family: 'Homemade Apple', cursive;  
+}
+
+#twitter {
+  background-color: #FFFFFF;
+  border-style: none;
+  bottom: 10px;
+  position: absolute;
+  right: 10px;
+}
+
+#buttonContainer {
+  margin: 3%;
+}
+
+#quoteGenerator {
+  background-color: #2A3132;
+  border-style: none;
+  color: #FFFFFF;
+  height: 60px;
+  outline-color: #FFFFFF;
+  width: 140px;
+}
+
+
+/*
+------------------------------------------
+Tablet styles
+------------------------------------------
+*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .page-header {
+    font-size: 48px;
+    margin-bottom: 7%;
+  }
+  #quoteContainer {
+    font-size: 24px;
+    min-height: 350px;    
+  }
+}
+
+
+/*
+------------------------------------------
+Desktop styles
+------------------------------------------
+*/
+
+@media (min-width: 992px) {
+  .page-header {
+    font-size: 70px;
+    margin-bottom: 5%;
+  }
+  #quoteContainer {
+    font-size: 28px;
+    min-height: 380px;    
+  }
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html> 
+<html lang="en">   
+  <head>     
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Motivational Quotes Generator</title> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rufina" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>   
+  <body>
+    <div class="container">
+      <header>
+        <h1 class="page-header text-center">Quotes Guru</h1> 
+      </header>
+      <main>
+        <div id="quoteContainer">
+          <figure>
+            <blockquote> 
+              <p id="quoteText">Believe you can and you're halfway there.</p>
+              <footer id="authorContainer" class="text-right">— 
+                <cite id="author">Theodore Roosevelt</cite>
+              </footer>
+            </blockquote>
+            <div class="text-right">
+              <button id="twitter" type="button"></button>
+            </div>
+          </figure>
+        </div>
+          <div id="buttonContainer" class="text-center">
+            <button id="quoteGenerator" type="button" >New Quote</button>   
+          </div>
+        </main>
+      </div> <!-- div from container-->
+      <script src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <script src="best.js"></script>
+      <script src="script.js"></script>
+  </body>
+</html>

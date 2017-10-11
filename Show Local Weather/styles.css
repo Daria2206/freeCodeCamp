@@ -1,0 +1,134 @@
+/*
+================================================================================
+Custom Styles
+================================================================================
+*/
+
+/*
+------------------------------------------
+General styles
+------------------------------------------
+*/
+
+body {
+    background: #375E97;
+    color: #FFFFFF;
+    font-family: 'Quicksand', 'Roboto', sans-serif;
+}
+
+.secondary {
+    font-size: 26px;
+    padding-top: 25%;
+}
+
+.secondary p:first-child {
+    font-weight: bold;
+}
+
+#mainContent {
+    margin: 10% auto 3%;
+    max-width: 500px;
+    min-height: 500px;
+}
+
+.infoGeneral {
+    margin: 10% 0;
+}
+
+#icon {
+    max-height: 300px;
+    min-height: 100px;
+    max-width: 300px;
+    min-width: 100px;
+}
+
+#location {
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#description {
+    font-size: 20px;
+    text-transform: lowercase;
+}
+
+.infoMain {
+    margin-bottom: 10%; 
+}
+
+#temperature {
+    font-size: 500%;
+}
+
+#converter, #converter:active, #converter:focus {
+    background: transparent;
+    border: solid;
+    border-color: #848484;
+    border-radius: 6%;
+    color: #FFFFFF;
+    height: 50px;
+    margin-top: 2%;
+    outline: none;
+    width: 110px;
+}
+
+.infoSecondary {
+    background: #FB6542;
+    font-size: 16px;
+    padding: 5% 0 7%;
+}
+
+
+.title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/*
+------------------------------------------
+Tablet styles
+------------------------------------------
+*/
+
+@media (min-width: 500px) and (max-width: 991px) {
+  .infoSecondary {
+    font-size: 18px;
+  }
+  .title {
+    font-size: 20px;   
+  }
+  #mainContent {
+    border: solid;
+    border-radius: 4%;
+    overflow: hidden;
+  }
+  #location {
+    font-size: 26px;
+    text-transform: uppercase;
+  }
+}
+
+/*
+------------------------------------------
+Desktop styles
+------------------------------------------
+*/
+
+@media (min-width: 992px) {
+  .infoSecondary {
+    font-size: 20px;
+  }
+  .title {
+    font-size: 22px; 
+  }
+  #mainContent {
+    border: solid;
+    border-radius: 4%;
+    overflow: hidden;
+  }
+  #location {
+    font-size: 26px;
+    text-transform: uppercase;
+  }
+}
